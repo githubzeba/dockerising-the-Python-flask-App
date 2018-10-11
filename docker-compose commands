@@ -1,0 +1,8 @@
+docker-compose up -d                  # for running the docker-compose comand in background
+docker-compose ls                      # to check the constainer managed by compose
+docker-compose logs                    # for checking the complete dokcer-compose logs
+docker-compose logs redis              # for checking the complete logs of container name redis
+docker-compose logs -f                   # for checkingand following  the complete docker-compose logs
+docker-compose stop                      # to stop  all the constainer managed by compose
+docker-compose rm                      # to remove all the constainer managed by compose
+docker-compose build                      # to update any changes on Dockerfile or Rebuild the Imagess the constainer managed by compose 
